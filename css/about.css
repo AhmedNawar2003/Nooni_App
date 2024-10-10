@@ -1,0 +1,313 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(shop.css);
+@import url(Responsive/aboutPage.css);
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+  --gray: #efefef;
+}
+body {
+  font-family: Regular;
+}
+li {
+  list-style: none;
+}
+.card .card-img {
+  overflow: hidden;
+}
+img,
+iframe {
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.p-45 {
+  padding: 45px 0;
+}
+.p-bottom {
+  padding-bottom: 45px;
+}
+section {
+  padding: 0 60px;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.mg-b {
+  margin-bottom: 80px;
+}
+.flex-d-col {
+  flex-direction: column;
+}
+.flex-d-row {
+  flex-direction: row;
+}
+.display-flex {
+  display: flex;
+}
+/* ********************************** */
+/* start section About Noon’i */
+.navbar .navbar-brand {
+  width: 160px;
+  margin-inline-start: 0;
+}
+.about-Nooni .card {
+  display: flex;
+  justify-content: center;
+}
+.about-Nooni .card h2 {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: 0.025em;
+  margin-bottom: 20px;
+}
+.about-Nooni .card .paragraph {
+  font-size: 20px;
+  color: #848484;
+  width: auto;
+}
+/* End section About Noon’i */
+/* ***************************** */
+/* start section bg-image  */
+.bg-image {
+  height: 650px;
+  background-image: url(../img/about-parallax-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+/*  End section bg-image */
+/* ***************************** */
+.how-we-work .card-right {
+  display: flex;
+  justify-content: center;
+  margin-inline-start: 50px;
+}
+.how-we-work .card-right h4 {
+  font-size: 25px;
+  color: var(--black);
+  font-family: Bold;
+}
+.how-we-work .card-right .card-head {
+  margin-top: 30px;
+}
+.how-we-work .card-right .card-head h6 {
+  font-size: 18px;
+  color: var(--black);
+  font-family: Bold;
+}
+.how-we-work .card-right .card-content p {
+  padding-right: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #848484;
+  font-family: Medium;
+}
+/* End section how-we work */
+/* ********************************** */
+/* start section our-team */
+.our-team .card-heading{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    h4{
+        font-size: 25px;
+        color: var(--black);
+        font-family: Bold;
+        text-transform: uppercase;
+    }
+}
+.our-team .card .card-img .social-info{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 10%;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+    visibility: hidden;
+    transition: all 300ms;
+    span{
+        i{
+          cursor: pointer;
+            color: var(--white);
+            &:hover{
+              color: var(--cart);
+            }
+        }
+      }
+      
+}
+.our-team .card .card-img{
+    border-radius: 0;
+   position: relative;
+   &:hover{
+    img{
+        transform: scale(1.1);
+    }
+    .social-info{
+        visibility: visible;
+    }
+   &::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a7;
+    inset: 0;
+    z-index: 1;
+    transition: all 0.5s;
+   }
+}
+}
+.our-team .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-team .card .card-body .card-text {
+  font-size: 13.5px;
+  color: var(--black);
+  font-family: Bold;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.our-team .card .card-body a {
+  font-size: 25px;
+  color: #848484;
+  transition: all 300ms;
+  &:hover{
+    color: var(--cart);
+  }
+}
+/* End section our-team */
+/* ************************************ */
+/* start section Genuine-Products */
+.genuine-Products{
+    height: 500px;
+    background-image: url(../img/about-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    &::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        display: block;
+        background-color: #000000a7;
+        z-index: -1;
+        transition: all 0.5s;
+    }
+}
+.genuine-Products .card{
+    display: flex;
+    align-items: center;
+}
+.genuine-Products .card h2{
+    color: var(--white);
+    font-family: Medium;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: 0.075em;
+    text-transform: capitalize;
+}
+.genuine-Products .card p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 60px 0;
+    color: var(--white);
+    font-size: 15px;
+    span{
+        color: var(--white);
+        font-size: 15px;
+        text-transform: lowercase;
+    }
+}
+.genuine-Products .card a{
+    background-color: var(--white);
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+    span{
+        font-size: 14px;
+        color: var(--black);
+        font-family: Bold;
+        text-transform: uppercase;
+    }
+    &:hover{
+        background-color: var(--cart);
+        span{
+            color: var(--white);
+        }
+    }
+}
+/* End section Genuine-Products*/
+/* *************************** */
+/* start section logos */
+    .logos .row-after{
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid #ededed;
+            bottom: 0;
+        }
+    }
+    .logos .card{
+        margin-bottom: 100px;
+    }
+/* End section logos */
+/* ************************* */
+/* start footer */
+.footer .img-fluid {
+    margin-bottom: 10px;
+}
+/* End footer */

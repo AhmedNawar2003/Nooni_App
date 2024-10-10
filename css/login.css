@@ -1,0 +1,241 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(about.css);
+@import url(conatct.css);
+@import url(Responsive/loginPage.css);
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+  --gray: #efefef;
+}
+body {
+  font-family: Regular;
+}
+li {
+  list-style: none;
+}
+.card .card-img {
+  overflow: hidden;
+}
+img,
+iframe {
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.p-45 {
+  padding: 45px 0;
+}
+.p-bottom {
+  padding-bottom: 45px;
+}
+section {
+  padding: 0 60px;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.mg-b {
+  margin-bottom: 80px;
+}
+.flex-d-col {
+  flex-direction: column;
+}
+.flex-d-row {
+  flex-direction: row;
+}
+.display-flex {
+  display: flex;
+}
+.mg-b-50 {
+  margin-bottom: 50px;
+}
+/* **************** */
+/* style of header */
+.header .card .card-right{
+    position: relative;
+    left: 70px;
+}
+.header .dropdown-toggle{
+  &:hover{
+    background-color: var(--black);
+  }
+}
+.header .languages{
+.dropdown{
+  &:hover{
+    background-color: #000000;
+}
+}
+}
+.header  .english{
+  inset-inline-end: 35px ;
+}
+
+/* ********************* */
+/* start style of form section */
+.form{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border-bottom: 1px solid #efefef;
+      }
+      .gapping{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+      }
+}
+.form .card {
+  display: flex;
+  gap: 30px;
+  .card-heading {
+    font-family: Bold;
+    font-size: 30px;
+  }
+}
+
+.form form .form-label {
+  margin-bottom: 0.5rem;
+}
+ .form form .input-group {
+  background-color: transparent;
+  width: 450px;
+}
+.form
+  form
+  .input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  border: 2px solid #ededed;
+  padding: 20px;
+  color: #000;
+  border-radius: 50px;
+}
+.form
+  form
+  .input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback):hover {
+ background-color: transparent;
+}
+.form form .input-group.has-validation > .dropdown-toggle:nth-last-child(n + 4),
+.input-group.has-validation
+  > :nth-last-child(n + 3):not(.dropdown-toggle):not(.dropdown-menu) {
+  display: none;
+} 
+.form form .form-control {
+  background-clip: 0;
+  border: 1px solid #ededed;
+  padding: 20px;
+  border-radius: 0;
+  outline: none;
+  width: 450px;
+  border-radius: 50px;
+
+}
+.form .form-check.reminder-me {
+  background-color: transparent;
+  position: relative;
+  bottom: 85px;
+  right: 130px;
+  cursor: pointer;
+  .form-check-label {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Bold;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+
+  }
+}
+.form form [type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  width: 180px;
+  border: none;
+}
+.form form a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    position: relative;
+    bottom: 150px;
+    cursor: pointer;
+    &:hover{
+        &::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            border-bottom: 1px solid #000000;
+            transition: all 300ms;
+        }
+    }
+}
+.login-btn,
+.register-btn{
+  background-color: var(--black);
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 0;
+  &:hover{
+    background-color: var(--cart);
+    color: #fff;
+  }
+}
+.btn{
+  border-radius: 50px;
+}
+input:focus .invalid-feedback {
+  display: block;
+}
+/* End style of form section */
+/* *************************** */
+/* style of footer */
+.footer{
+    padding-top: 0;
+}
+
+.footer .form-control{
+  border-radius: 50px;
+}

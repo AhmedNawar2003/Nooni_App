@@ -1,0 +1,34 @@
+@media (max-width:1500px) {
+    .adirondack-Chair select {
+        width: 350px !important;
+}
+}
+@media (max-width:1200px) {
+    .adirondack-Chair select {
+        width: 350px !important;
+}
+}
+@media (max-width:1024px) {
+    .adirondack-Chair select {
+        width: 170px !important;
+        font-size: 12px;
+}
+}
+@media (max-width:600px){
+    .adirondack-Chair select {
+        width: 160px !important;
+        font-size: 10px !important;
+}
+ }
+@media (max-width:600px){
+    .adirondack-Chair select {
+        width: 160px !important;
+        font-size: 8px !important;
+}
+}
+@media (max-width:600px){
+    .adirondack-Chair select {
+        width: 100px !important;
+        font-size: 7px !important;
+}
+}

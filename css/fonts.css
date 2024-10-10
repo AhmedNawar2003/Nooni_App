@@ -1,0 +1,36 @@
+@font-face {
+    font-family: light;
+    src: url(../inter-fonts/Inter_18pt-Light.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(../inter-fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family:Medium ;
+    src: url(../inter-fonts/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family:thin ;
+    src: url(../inter-fonts/Inter_18pt-Thin.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(../inter-fonts/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: ExtraBold;
+    src: url(../inter-fonts/Inter_18pt-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Black-g ;
+    src: url(../inter-fonts/Inter_18pt-Black.ttf);
+}
+@font-face {
+    font-family: VariableFont;
+    src: url(../inter-fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family:SemiBold ;
+    src: url(../inter-fonts/Inter_18pt-SemiBold.ttf);
+}

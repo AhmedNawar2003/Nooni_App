@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+  .adirondack-Chair .last-card {
+    a {
+      font-size: 10px !important;
+    }
+  }
+  .adirondack-Chair .last-card {
+    & span {
+      i {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .may-also-like h2 {
+    font-size: 20px !important;
+  }
+}
+/* *********************************** */
+@media (max-width: 768px) {
+  .may-also-like h2 {
+    font-size: 15px !important;
+  }
+}
+/* *********************************** */
+@media (max-width: 550px) {
+  .may-also-like h2 {
+    font-size: 15px !important;
+  }
+}
+/* ********************************************* */
+@media (max-width: 400px) {
+    .may-also-like h2 {
+      font-size: 12px !important;
+    }
+  }

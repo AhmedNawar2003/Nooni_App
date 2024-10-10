@@ -1,0 +1,177 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(product3.css);
+@import url(Responsive/product3Page.css);
+@import url(Responsive/product4Page.css);
+:root {
+    --nooni-top-bg: rgba(0, 0, 0, 1);
+    --nooni-top-color: rgba(255, 255, 255, 1);
+    --nooni-top-border: rgba(0, 0, 0, 1);
+    --white: #fff;
+    --cart: #d10202;
+    --black: #000000;
+    --gray: #efefef;
+  }
+  body {
+    font-family: Regular;
+  }
+  li {
+    list-style: none;
+  }
+  .card .card-img {
+    overflow: hidden;
+  }
+  img,
+  iframe {
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease-in-out;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin-bottom: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .card {
+    background-color: transparent;
+    border: none;
+  }
+  .p-50 {
+    padding: 0 50px;
+  }
+  .p-45 {
+    padding: 45px 0;
+  }
+  .p-bottom {
+    padding-bottom: 45px;
+  }
+  section {
+    padding: 0 60px;
+  }
+  .justify-content-center {
+    display: flex;
+    justify-content: center;
+  }
+  .align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  .mg-b {
+    margin-bottom: 80px;
+  }
+  .flex-d-col {
+    flex-direction: column;
+  }
+  .flex-d-row {
+    flex-direction: row;
+  }
+  .display-flex {
+    display: flex;
+  }
+  .mg-b-50 {
+    margin-bottom: 50px;
+  }
+/* ************************* */
+/* start style of second section */
+/* .adirondack-Chair */
+.adirondack-Chair .size{
+    text-transform: uppercase;
+    font-family: Bold;
+}
+.adirondack-Chair select {
+    text-transform: none;
+    display: block;
+    width: 500px;
+    margin-inline-start: 20px;
+    padding: 10px;
+    border-radius: 50px;
+   }
+   .adirondack-Chair .card-buy-now-btn{
+    margin-inline-start: 30px;
+}
+.adirondack-Chair .search {
+    left: 88%;
+}
+/* end adirondack-Chair*/
+/* ********************** */
+/* start related-product */
+.related-product .figure-first-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/38-4-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .first-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-second-img{
+    position: relative;
+    .spans{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: var(--black);
+        span{
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+}
+.related-product .last-sec-del{
+    color: #999999;
+}
+.related-product .figure-second-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/21-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .second-img{
+        opacity: 0;
+    }
+   
+}
+.related-product .figure-third-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/38-2-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .third-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-fourth-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/14-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .fourth-img{
+        opacity: 0;
+    }
+}
+/* end related-product */

@@ -1,0 +1,283 @@
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 0 30px;
+  }
+  .navbar .navbar-brand {
+    width: 160px !important;
+    margin-inline-start: 5px !important;
+  }
+  .about-Nooni .card .paragraph {
+    width: auto !important;
+    font-size: 18px !important;
+  }
+  .about-Nooni .card h2 {
+    font-size: 36px !important;
+  }
+  .how-we-work .card-right {
+    h4 {
+      font-size: 19px !important;
+    }
+    .card-head {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      h6 {
+        font-size: 15px !important;
+      }
+    }
+    .card-content p {
+      margin-bottom: 5px !important;
+      font-size: 14px !important;
+    }
+  }
+  .our-team .card-heading {
+    h4 {
+      font-size: 20px !important;
+    }
+  }
+  .our-team .card .card-body a {
+    font-size: 19px !important;
+    color: #848484;
+  }
+  .genuine-Products .card h2 {
+    font-size: 35px !important;
+  }
+  .footer {
+    img {
+      width: 110px !important;
+    }
+  }
+  .footer .card p,
+  a {
+    font-size: 11px !important;
+    width: auto !important;
+  }
+  .footer .card-body .social-info span i {
+    font-size: 20px !important;
+  }
+  .footer .card-bottom {
+    ul {
+      gap: 50px !important;
+      li {
+        font-size: 10px !important;
+      }
+    }
+    margin-block-end: 2px !important;
+  }
+}
+/* ********************************************* */
+@media screen and (max-width: 992px) {
+  section {
+    padding: 0 30px;
+  }
+  .navbar .navbar-brand {
+    width: 90px !important;
+    margin-inline-end: 140px !important;
+  }
+  .about-Nooni .card .paragraph {
+    width: auto !important;
+    font-size: 15px !important;
+  }
+  .about-Nooni .card h2 {
+    font-size: 28px !important;
+  }
+  .how-we-work .card-img {
+    margin-block-end: 50px;
+  }
+  .how-we-work .card-right {
+    h4 {
+      font-size: 19px !important;
+    }
+    .card-head {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      h6 {
+        font-size: 15px !important;
+      }
+    }
+    .card-content p {
+      margin-bottom: 5px !important;
+      font-size: 14px !important;
+    }
+  }
+  .our-team .card-heading {
+    h4 {
+      font-size: 20px !important;
+    }
+  }
+  .our-team .card .card-body a {
+    font-size: 19px !important;
+    color: #848484;
+  }
+  .genuine-Products .card h2 {
+    font-size: 25px !important;
+  }
+  .genuine-Products .card p {
+    font-size: 13px !important;
+    margin-bottom: 25px !important;
+  }
+  .footer {
+    .card {
+      margin-bottom: 30px !important;
+      gap: 40px !important;
+    }
+    img {
+      width: 110px !important;
+    }
+  }
+  .footer .card p,
+  a {
+    font-size: 10px !important;
+    width: auto !important;
+  }
+  .footer .card-body .social-info span i {
+    font-size: 17px !important;
+  }
+  .footer {
+    .card-bottom {
+      margin-block-end: 2px !important;
+      ul {
+        gap: 35px !important;
+        li {
+          font-size: 10px !important;
+        }
+      }
+    }
+  }
+  .footer .card .card-body {
+    ul {
+      gap: 11px !important;
+    }
+  }
+}
+/* ****************************************************** */
+@media screen and (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+  .about-Nooni .card h2 {
+    font-size: 20px !important;
+  }
+  .about-Nooni .card .paragraph {
+    font-size: 12px !important;
+  }
+  .how-we-work .card-right h4 {
+    font-size: 17px !important;
+  }
+  .how-we-work .card-right {
+    & .card-head {
+      h6 {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .how-we-work .card-right {
+    .card-content p {
+      font-size: 12px !important;
+    }
+  }
+  .our-team .card-heading {
+    margin-bottom: 40px;
+  }
+  .genuine-Products {
+    height: 300px;
+  }
+  .logos {
+    .card {
+      align-items: center;
+    }
+    img {
+      width: 90px;
+    }
+  }
+  .footer .last-row .card {
+    align-items: center;
+  }
+}
+/* ****************************************** */
+@media screen and (max-width: 585px) {
+  .navbar .navbar-brand {
+    width: 70px !important;
+    margin-inline-end: 21px !important;
+    margin-block-end: 12px;
+  }
+  .about-Nooni .card .paragraph {
+    font-size: 5px !important;
+  }
+  .about-Nooni .card h2 {
+    font-size: 15px !important;
+  }
+  .how-we-work .card-right h4 {
+    font-size: 15px !important;
+  }
+  .how-we-work .card-right {
+    & .card-head {
+      h6 {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .how-we-work .card-right {
+    .card-content p {
+      font-size: 10px !important;
+    }
+  }
+  .our-team .card-heading {
+    h4 {
+      font-size: 15px !important;
+    }
+  }
+  .our-team .card .card-body a {
+    font-size: 15px !important;
+  }
+  .our-team .card .card-body .card-text {
+    font-size: 10.5px !important;
+  }
+  .genuine-Products .card h2 {
+    font-size: 13px !important;
+  }
+  .genuine-Products .card p {
+    font-size: 7px !important;
+  }
+  .genuine-Products .card p span {
+    font-size: 7px !important;
+  }
+  .genuine-Products .card a {
+    span {
+      font-size: 10px !important;
+      padding: 10px !important;
+    }
+  }
+    .navbar .card-icon {
+        display: none;
+ }
+
+    .footer .card .card-imgg img {
+      width: 70px !important;
+    }
+    .footer .card .card-heading h6 {
+      font-size: 13px !important;
+    }
+    .footer .card-body .social-info span i {
+      font-size: 13px !important;
+    }
+    .footer .side-arrow {
+      width: 20px;
+      height: 20px;
+      a {
+        i {
+          font-size: 10px !important;
+        }
+      }
+    }
+    .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+      .valid-feedback
+    ):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 10px !important;
+  }
+  .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+  .input-group:not(.has-validation)
+    > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    font-size: 10px !important;
+  }
+  }

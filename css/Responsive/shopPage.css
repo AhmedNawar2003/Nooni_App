@@ -1,0 +1,255 @@
+@media (max-width: 1200px) {
+  .navbar-brand {
+    left: 20px;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    margin-inline-end: 50px;
+  }
+}
+/* ******************************** */
+@media (max-width: 1024px) {
+  .navbar-brand {
+    width: 120px !important;
+  }
+  .product .card .card-img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .product .card .card-content a,
+  span {
+    font-size: 10px !important;
+  }
+  .home-shop .card h1 {
+    font-size: 25px !important;
+  }
+  .header-top .header-store-notice a {
+    font-size: 10px !important;
+  }
+  .checkbox-product label {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .checkbox-product .form-select {
+    font-size: 12px;
+  }
+  .checkbox-product .card .type {
+    font-size: 14px;
+  }
+  .card .content h3 a {
+    font-size: 10px !important;
+  }
+  .checkbox-product .card .color {
+    font-size: 12px;
+  }
+  .checkbox-product .card .card-body .add-cart {
+    height: 30px !important;
+  }
+  .footer .card .card-imgg {
+    width: 90px !important;
+  }
+  .footer .card .card-heading h6 {
+    font-size: 14px !important;
+  }
+  .footer .card .card-body {
+    & ul {
+      & li {
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .footer .card p,
+  a {
+    font-size: 10px !important;
+  }
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+      .valid-feedback
+    ):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 12px !important;
+  }
+  .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+  .input-group:not(.has-validation)
+    > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    font-size: 12px;
+  }
+  .footer .card-body .social-info span i {
+    font-size: 20px !important;
+  }
+  .footer .card-bottom ul li {
+    font-size: 12px !important;
+  }
+  .footer .card-image img {
+    width: 150px;
+  }
+}
+/* ******************************** */
+@media (max-width: 992px) {
+  .checkbox-product label {
+    font-size: 9px !important;
+  }
+  .footer .card-bottom ul li {
+    font-size: 10px !important;
+  }
+  .checkbox-product .form-select {
+    font-size: 10px !important;
+    width: 200px;
+  }
+}
+/* ******************************** */
+@media (max-width: 825px) {
+  .checkbox-product label {
+    font-size: 7.5px !important;
+  }
+  .footer .card-bottom ul li {
+    font-size: 9px !important;
+  }
+  .checkbox-product .form-select {
+    font-size: 9px !important;
+  }
+  .checkbox-product .card .color {
+    font-size: 8px;
+  }
+}
+/* ******************************** */
+@media (max-width: 768px) {
+  .navbar [type="button"]:not(:disabled) {
+    display: none;
+  }
+}
+/* ************************************ */
+@media (max-width: 576px) {
+  .home-shop .card h1 {
+    font-size: 20px !important;
+  }
+  .checkbox-product .card .type {
+    font-size: 10px !important;
+  }
+  .checkbox-product .form-check.form-up {
+    gap: 0px !important;
+    margin-bottom: 15px;
+  }
+  .checkbox-product label {
+    font-size: 6px !important;
+    margin-top: 6px;
+    margin-left: 3px;
+  }
+  .checkbox-product .card-pattern div.type {
+    font-size: 6px !important;
+  }
+  .checkbox-product .card .card-ul li {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .checkbox-product .form-select {
+    width: 140px !important;
+    margin-bottom: 40px;
+  }
+  .checkbox-product .form-left label {
+    font-size: 6px !important;
+    margin-top: 6px;
+    margin-left: 3px;
+    width: 50px !important;
+  }
+  .checkbox-product .card .type {
+    font-size: 10px !important;
+    width: 100px !important;
+  }
+  .checkbox-product .card .card-body .add-cart {
+    height: 20px;
+  }
+  .footer .card-body .social-info {
+    flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+}
+/* ******************************** */
+@media (max-width: 450px) {
+  .navbar-brand {
+    width: 60px !important;
+  }
+  .navbar .card-icon {
+    position: relative;
+    left: 140px;
+  }
+  .navbar .search-icon {
+    position: relative;
+    right: 60px;
+  }
+  .navbar .navbar-brand {
+    margin-inline-end: 0px !important;
+}
+  .product .card .card-img {
+    width: 65px !important;
+    height: 65px !important;
+  }
+  .checkbox-product .form-check.form-up {
+    margin-bottom: 27px !important;
+  }
+  .checkbox-product .form-select {
+    position: relative;
+    left: 24%;
+    padding: 10px 20px !important;
+    margin-bottom: 10px;
+  }
+  .checkbox-product .form-left label {
+    font-size: 6px !important;
+    margin-top: 6px;
+    margin-left: 3px;
+    width: 50px !important;
+  }
+  .checkbox-product .card-of-row2 {
+    position: relative;
+    left: 30%;
+  }
+  .checkbox-product .card .card-ul {
+    position: relative;
+    left: 30%;
+  }
+}
+/* ******************************** */
+@media (max-width: 380px) {
+  .navbar-brand {
+    position: relative !important;
+    left: 1% !important;
+  }
+  .header .search-icon i {
+    font-size: 15px !important;
+    position: relative;
+    right: 50px;
+    color: #000;
+  }
+  .navbar .card-icon {
+    position: relative;
+    left: 78% !important;
+    bottom: 3px;
+    i {
+      font-size: 15px !important;
+    }
+  }
+  .header .navbar .card-icon .count-number {
+    top: -2px !important;
+    right: 27px !important;
+  }
+  .header .navbar .card-icon .cart-number {
+    top: -2px !important;
+    right: -7px !important;
+  }
+  .header .navbar .card-icon .number {
+    width: 12px !important;
+    height: 12px !important;
+    font-size: 10px;
+  }
+  .product .card .card-img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .checkbox-product .form-check.form-up {
+    width: fit-content !important;
+  }
+  .checkbox-product .card .card-body .add-cart {
+    height: 15px !important;
+  }
+}

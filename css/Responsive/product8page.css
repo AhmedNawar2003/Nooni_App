@@ -1,0 +1,23 @@
+@media (max-width: 1500px) {
+    .adirondack-Chair .card .new-price span {
+        font-size: 28px !important;
+    }
+}
+/* ************************************************** */
+@media (max-width: 1024px) {
+    .adirondack-Chair .card .new-price span {
+        font-size: 20px !important;
+    }
+}
+/* ********************************************* */
+@media (max-width: 400px) {
+    .card .card-body .price .bdi-black {
+        font-size: 12px !important;
+    }
+    .card .card-body .price .bdi-gray {
+        font-size: 12px !important;
+    }
+    .footer .card .card-heading h6 {
+        font-size: 12px !important;
+    }
+}

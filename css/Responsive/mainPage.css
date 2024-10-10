@@ -1,0 +1,320 @@
+/* Responsive Design for Screens from 769px to 1024px */
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 500px;
+  }
+  .header-top .dropdown {
+    inset-inline-end: 2px !important;
+  }
+  .navbar .navbar-brand {
+    width: 120px !important;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 25px !important;
+  }
+  .the-best .card-text {
+    inset-inline-start: 20px !important;
+    margin-top: 25px;
+    a {
+      span {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .Deal-of-week .h2 {
+    h2 {
+      font-size: 20px !important;
+    }
+  }
+  .the-best .text h2 {
+    margin: 10px 0 !important;
+  }
+  .the-best .text h2 div {
+    font-size: 30px !important;
+  }
+  .new-product .card-text {
+    margin-bottom: 20px;
+    a {
+      span {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .new-product .text h2 {
+    margin: 10px 0 !important;
+  }
+  .new-product .text h2 {
+    font-size: 30px !important;
+  }
+  .furniture .card .first-div p,
+  .furniture .card .second-div p {
+    font-size: 35px !important;
+  }
+  .lightings .card .card-content h2 div {
+    font-size: 20px !important;
+  }
+  .lightings .card .card-content h2 {
+    margin: 10px 0 !important;
+  }
+  .lightings .card .card-content a span {
+    font-size: 12px !important;
+  }
+  .bestsellers .card ul li {
+    font-size: 14px !important;
+  }
+  .shop-more-button {
+    font-size: 12px !important;
+  }
+  .footer .card-top p {
+    width: auto !important;
+    font-size: 15px;
+  }
+  .footer .input-group {
+    width: 100% !important;
+  }
+  .footer .card-bottom ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* ************************************** */
+@media screen and (max-width: 992px) {
+  .header .navbar-expand-lg .search-icon {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-inline-start: 200px !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:hover::after {
+    display: none;
+  }
+}
+/* Mobile First Approach - For screens up to 768px */
+@media screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .navbar .navbar-brand {
+    width: 90px !important;
+  }
+  .navbar-toggler-icon {
+    font-size: 25px !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 12px !important;
+}
+  .navbar .dropdown-toggle {
+    font-size: 12px;
+    left: 0;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-inline-start: 90px !important;
+    width: fit-content !important;
+    font-size: 12px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:hover::after {
+    display: none;
+  }
+  .header-top .header-store-notice span {
+    font-size: 7px !important;
+  }
+  .header-top .header-store-notice a {
+    font-size: 7px !important;
+  }
+  .navbar-expand-lg .navbar-nav {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .the-best .text .first-p p {
+    font-size: 14px !important;
+  }
+  .the-best .text h2 div {
+    font-size: 20px !important;
+  }
+  .the-best .text .first-p p {
+    font-size: 14px !important;
+  }
+  .new-product .text h2 {
+    font-size: 20px !important;
+  }
+  .furniture .card .first-div p,
+  .furniture .card .second-div p {
+    font-size: 25px !important;
+  }
+  .lightings .card .card-content .first-p p {
+    font-size: 14px !important;
+  }
+  .lightings .card .card-content h2 div {
+    font-size: 18px !important;
+  }
+
+  .bestsellers .card ul {
+    gap: 15px !important;
+    flex-direction: column;
+  }
+  .bestsellers .card ul .first-li::after {
+    width: 35% !important;
+  }
+  .input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  font-size: 12px !important;
+}
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  font-size: 12px;
+}
+  .footer .card-top p {
+    width: 100%;
+    font-size: 13px !important;
+  }
+  .footer .card-top span i {
+    font-size: 13px !important;
+}
+  .footer .card-top h3 {
+    font-size: 14px !important;
+  }
+  .footer .card-bottom p {
+    font-size: 12px !important;
+}
+  .footer .card-bottom ul {
+    gap: 10px;
+    margin-inline-end: 50px;
+  }
+  .footer .card-bottom ul li {
+    font-size: 12px !important;
+  }
+  .footer .side-arrow {
+    width: 25px !important;
+    height: 25px !important;
+    a {
+      i {
+        font-size: 12px !important;
+      }
+    }
+  }
+}
+/* *********************************************** */
+@media screen and (max-width: 600px) {
+  .header-top .header-store-notice {
+    display: none;
+  }
+  .header-top .dropdown {
+    display: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 10px !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  font-size: 12px !important;
+   margin-inline-start: 60px !important;
+}
+  .navbar-toggler-icon {
+    font-size: 20px !important;
+  }
+  .header .header-top {
+    padding-top: 10px;
+    .card-icon {
+      inset-inline-end: 143px;
+    }
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:hover::after {
+    display: none;
+  }
+  .furniture .card .second-div p {
+    font-size: 20px !important;
+  }
+  .Deal-of-week .h2 {
+    & h2 {
+      font-size: 15px !important;
+    }
+  }
+  .Deal-of-week .btn-see {
+    justify-content: start;
+  }
+  .counter-wrapper {
+    padding: 3px 26px;
+    width: 185px;
+    margin: 10px 0;
+  }
+  .lightings .card .card-content {
+    position: absolute;
+    right: 2% !important;
+    top: 9% !important;
+  }
+  .lightings .card .card-content h2 div {
+    font-size: 14px !important;
+  }
+  .lightings .card .card-content .first-p p {
+    font-size: 11px !important;
+  }
+  .lightings .card-content .anchor a span {
+    font-size: 7px !important;
+  }
+  .lightings .card .card-content h2 {
+    margin: 5px 0px !important;
+  }
+  .bestsellers .btn-see {
+    justify-content: center;
+  }
+  .bestsellers .second-li:hover:after{
+    width: 40% !important;
+  }
+  .logos {
+    .card {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+    img {
+      width: 90px;
+    }
+  }
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+      .valid-feedback
+    ):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 10px !important;
+  }
+  .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    font-size: 10px;
+}
+  .footer .card-top p {
+    width: 100%;
+    font-size: 9px !important;
+  }
+  .footer .card-top h3 {
+    font-size: 12px !important;
+}
+  .footer .social-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .card-bottom p {
+    font-size: 10px !important;
+}
+  .footer .card-top span i {
+    font-size: 12px !important;
+}
+  .footer .card-bottom {
+    align-items: center;
+  }
+  .footer .card-bottom ul li {
+    font-size: 10px !important;
+  }
+  .footer .card-bottom ul {
+    margin-inline-end: 30px;
+  }
+  .footer .side-arrow {
+    width: 20px !important;
+    height: 20px !important;
+    a {
+      i {
+        font-size: 10px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,240 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(product3.css);
+@import url(Responsive/product6Page.css);
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+  --gray: #efefef;
+}
+body {
+  font-family: Regular;
+}
+li {
+  list-style: none;
+}
+.card .card-img {
+  overflow: hidden;
+}
+img,
+iframe {
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.p-45 {
+  padding: 45px 0;
+}
+.p-bottom {
+  padding-bottom: 45px;
+}
+section {
+  padding: 0 60px;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.mg-b {
+  margin-bottom: 80px;
+}
+.flex-d-col {
+  flex-direction: column;
+}
+.flex-d-row {
+  flex-direction: row;
+}
+.display-flex {
+  display: flex;
+}
+.mg-b-50 {
+  margin-bottom: 50px;
+}
+/* ************************************** */
+/* Start of second section */
+.adirondack-Chair .card-border {
+  border: 1px solid #ededed;
+}
+.adirondack-Chair .price {
+  flex-direction: column;
+  .bdi-black {
+    color: var(--black);
+  }
+}
+.adirondack-Chair .card-border-btm{
+  border-bottom: 1px solid #ededed;
+  margin-top: 25px;
+}
+.adirondack-Chair .last-card{
+  margin-top: 20px;
+}
+
+.adirondack-Chair .card .price {
+    gap: 0px;
+}
+.adirondack-Chair .price {
+    .bdi-black {
+        font-size: 14px;
+        font-family: Bold;
+    }
+    del{
+        color: #848484;
+        display: flex;
+        align-items: center;
+    }
+    .bdi-gray{
+        font-size: 12px;
+        color: #848484;
+    }
+}
+.adirondack-Chair .beside-img{
+    width: 120px;
+    position: relative;
+    top: 30px;
+}
+.adirondack-Chair .number-and-btn{
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+.adirondack-Chair .card-price {
+    align-items: flex-start;
+    .price{
+        margin-bottom: 5px;
+    }
+}
+.adirondack-Chair h4{
+    font-size: 15px;
+    font-family: Bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+.adirondack-Chair .card .new-price{
+    margin-bottom: 20px;
+ span {
+    color: var(--black);
+    font-size: 25px;
+    font-family: Medium;
+}
+}
+/* end of second section */
+/* **************************************** */
+/* start related-product */
+
+.related-product .figure {
+  position: relative;
+  .spans {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--black);
+    span {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+}
+.related-product del {
+  color: #848484;
+}
+.related-product .card .figure {
+  .icons {
+    bottom: -77px;
+  }
+  &:hover {
+    .icons {
+      bottom: -20px;
+    }
+  }
+}
+.related-product .figure-fourth-img .card-body{
+    .add-cart{
+        bottom: 112px;
+    }
+}
+.related-product .figure-first-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/29-1-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .first-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-second-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/14-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .second-img{
+        opacity: 0;
+    }
+   
+}
+.related-product .figure-third-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/21-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .third-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-fourth-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/39-2-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .fourth-img{
+        opacity: 0;
+    }
+}
+
+/* end related-product */

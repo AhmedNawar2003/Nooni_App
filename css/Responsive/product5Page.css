@@ -1,0 +1,366 @@
+@media (max-width: 1500px) {
+  .adirondack-Chair textarea {
+    width: 400px !important;
+  }
+}
+/* ************************************************* */
+@media (max-width: 1200px) {
+  .adirondack-Chair .add-cart-btn {
+    width: 200px !important;
+  }
+  .adirondack-Chair .add-cart-btn {
+    & span {
+      margin-inline-end: -10px !important;
+    }
+  }
+  .adirondack-Chair .btn-group {
+    gap: 0px !important;
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    & .card-main {
+      flex-direction: column !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    .card-img {
+      width: 100px !important;
+      height: 100px !important;
+      margin-bottom: 15px;
+    }
+  }
+  .adirondack-Chair .accordion-body {
+    .card-for-stars {
+      flex-direction: row !important;
+    }
+  }
+  .adirondack-Chair textarea {
+    width: 300px !important;
+  }
+}
+/* ********************************************************** */
+@media (max-width: 1024px) {
+  .accordion-body .paragraph-before-ul {
+    font-size: 15px;
+  }
+  .adirondack-Chair .accordion-item.item1 {
+    li {
+      font-size: 15px;
+    }
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    p {
+      font-size: 14px !important;
+      width: auto !important;
+      letter-spacing: 0px !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    & .card-body {
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .adirondack-Chair .add-review {
+    h4 {
+      font-size: 15px !important;
+    }
+  }
+  .adirondack-Chair .add-review-p {
+    p {
+      font-size: 9px !important;
+    }
+  }
+  .adirondack-Chair .add-rating {
+    .rating {
+      font-size: 15px;
+    }
+    span {
+      font-size: 15px;
+    }
+  }
+  .adirondack-Chair .submit {
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 14px;
+  }
+  .adirondack-Chair .accordion-item {
+    border: none;
+  }
+    .adirondack-Chair .card .new-price span {
+        font-size: 20px !important;
+    }
+    .adirondack-Chair .submit {
+        width: fit-content;
+    }
+}
+/* *********************************************** */
+@media (max-width: 768px) {
+  .accordion-flush .accordion-item .accordion-button {
+    font-size: 14px;
+  }
+  .accordion-body .paragraph-before-ul {
+    font-size: 14px !important;
+  }
+  .adirondack-Chair .accordion-item.item1 {
+    li {
+      font-size: 14px !important;
+    }
+  }
+  .adirondack-Chair .card .new-price span {
+    font-size: 15px !important;
+  }
+  .adirondack-Chair .red-percent {
+    font-size: 14px;
+  }
+  .adirondack-Chair .card .old-price span {
+    font-size: 15px !important;
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    h4 {
+      font-size: 14px !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    .card-img {
+      width: 60px !important;
+      height: 60px !important;
+    }
+  }
+  .adirondack-Chair .card-for-stars i {
+    font-size: 12px;
+  }
+  .adirondack-Chair .add-rating {
+    .rating {
+      font-size: 13px;
+    }
+    span {
+      font-size: 13px;
+    }
+  }
+  .adirondack-Chair .submit {
+    font-size: 12px !important;
+    width: auto;
+  }
+  .adirondack-Chair textarea {
+    width: auto !important;
+    font-size: 12px;
+  }
+  .adirondack-Chair #exampleFormControlInput1 {
+    font-size: 12px;
+  }
+  .adirondack-Chair .card-input {
+    margin-bottom: 0 !important;
+  }
+  .bac-img h4 {
+    font-size: 17px !important;
+  }
+  .bac-img p {
+    font-size: 13px !important;
+  }
+  .bac-img .shop-now {
+    font-size: 12px;
+  }
+  .related-product .card-head h2 {
+    font-size: 15px !important;
+  }
+  .adirondack-Chair textarea {
+    height: 100px !important;
+  }
+}
+/* ************************************************************************* */
+@media (max-width: 550px) {
+  .adirondack-Chair .d-grid {
+    .buy-btn {
+      right: 13% !important;
+    }
+  }
+  .adirondack-Chair .add-cart-btn {
+    width: 180px !important;
+    margin-left: 0px;
+  }
+  .accordion-body .paragraph-before-ul {
+    font-size: 10px !important;
+  }
+  .adirondack-Chair .accordion-item.item1 {
+    li {
+      font-size: 10px !important;
+    }
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    font-size: 10px !important;
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    h4 {
+      font-size: 11px !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    p {
+      font-size: 8px !important;
+    }
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    & .card-body {
+      p {
+        font-size: 8px !important;
+      }
+    }
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    .card-img {
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
+  .adirondack-Chair .card-for-stars i {
+    font-size: 8px;
+  }
+  .adirondack-Chair .submit {
+    font-size: 9px !important;
+  }
+  .adirondack-Chair textarea {
+    font-size: 9px;
+  }
+  .adirondack-Chair #exampleFormControlInput1 {
+    font-size: 9px !important;
+  }
+  .bac-img h4 {
+    font-size: 12px !important;
+  }
+  .bac-img p {
+    font-size: 8px !important;
+  }
+  .bac-img .shop-now {
+    font-size: 8px !important;
+  }
+  .card .card-body .price .bdi-black {
+    font-size: 12px !important;
+  }
+  .card .card-body .price .bdi-gray {
+    font-size: 12px !important;
+  }
+  .adirondack-Chair textarea {
+    height: 85px !important;
+  }
+  .footer .card .card-heading h6 {
+    font-size: 11px !important;
+  }
+  .adirondack-Chair .add-review {
+    h4 {
+      font-size: 11px !important;
+    }
+  }
+}
+/*  *******************************************/
+@media (max-width: 431px) {
+    .adirondack-Chair .add-cart-btn {
+            margin-left: 0 !important;
+    }
+}
+/* ******************************************* */
+@media (max-width: 400px) {
+  .adirondack-Chair .add-cart-btn {
+    width: 100px !important;
+    margin-left: 0 !important;
+  }
+  .adirondack-Chair .d-grid {
+    .buy-btn {
+      right: 3% !important;
+    }
+  }
+  .adirondack-Chair .card .new-price span {
+    font-size: 12px !important;
+  }
+  .adirondack-Chair .card .old-price span {
+    font-size: 12px !important;
+  }
+  .adirondack-Chair .red-percent {
+    font-size: 12px !important;
+    position: relative;
+    top: 4px;
+  }
+  .accordion-body .paragraph-before-ul {
+    font-size: 8px !important;
+  }
+  .adirondack-Chair .accordion-item.item1 {
+    li {
+      font-size: 7px !important;
+    }
+  }
+  .accordion-flush .accordion-item .accordion-button {
+    font-size: 9px !important;
+  }
+  .adirondack-Chair .accordion-item.item2 {
+    h4 {
+      font-size: 10px !important;
+    }
+  }
+  .adirondack-Chair .card-content {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .adirondack-Chair .accordion-item.item3 {
+    & .card-body {
+      p {
+        font-size: 6px !important;
+      }
+    }
+  }
+  .adirondack-Chair .add-review {
+    h4 {
+      font-size: 9px !important;
+    }
+  }
+  .adirondack-Chair .add-review-p {
+    p {
+      font-size: 6px !important;
+    }
+  }
+  .adirondack-Chair .add-rating {
+    .rating {
+      font-size: 9px !important;
+    }
+  }
+  .adirondack-Chair .add-rating {
+    span {
+      font-size: 7px;
+    }
+  }
+  .adirondack-Chair textarea {
+    height: 75px !important;
+  }
+  .adirondack-Chair .submit {
+    font-size: 7px !important;
+  }
+  .bac-img h4 {
+    font-size: 10px !important;
+  }
+  .bac-img p {
+    font-size: 6px !important;
+  }
+  .bac-img .shop-now {
+    font-size: 6px !important;
+  }
+  .related-product .card-head h2 {
+    font-size: 12px !important;
+  }
+  .footer .card .card-heading h6 {
+    font-size: 9px !important;
+  }
+  .footer .card p {
+    margin-block-end: 8px !important;
+  }
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+      .valid-feedback
+    ):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 8px !important;
+  }
+}

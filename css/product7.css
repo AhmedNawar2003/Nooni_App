@@ -1,0 +1,274 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(product5.css);
+@import url(Responsive/product7page.css);
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+  --gray: #efefef;
+}
+body {
+  font-family: Regular;
+}
+li {
+  list-style: none;
+}
+.card .card-img {
+  overflow: hidden;
+}
+img,
+iframe {
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.p-45 {
+  padding: 45px 0;
+}
+.p-bottom {
+  padding-bottom: 45px;
+}
+section {
+  padding: 0 60px;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.mg-b {
+  margin-bottom: 80px;
+}
+.flex-d-col {
+  flex-direction: column;
+}
+.flex-d-row {
+  flex-direction: row;
+}
+.display-flex {
+  display: flex;
+}
+.mg-b-50 {
+  margin-bottom: 50px;
+}
+/* ********************************* */
+/* start style of second section */
+.adirondack-Chair .big-img{
+    margin-bottom: 2px;
+}
+/* end style of second section  */
+/* ******************************* */
+/* start may-also-like */
+.may-also-like h2{
+    font-size: 25px;
+    font-family: Bold;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.may-also-like .figure {
+    position: relative;
+    .spans {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: var(--black);
+      span {
+        font-size: 12px;
+        padding: 10px;
+      }
+    }
+  }
+  .may-also-like del {
+    color: #848484;
+  }
+  .may-also-like .card .figure {
+    .icons {
+      bottom: -90px;
+      right: -68px;
+    }
+    &:hover {
+      .icons {
+        bottom: -20px;
+      }
+    }
+  }
+  .may-also-like .figure-fourth-img .card-body{
+      .add-cart{
+          bottom: 112px;
+      }
+  }
+   .may-also-like .card .card-body .add-cart {
+    bottom: 114px;
+   }
+.may-also-like .figure-first-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/21-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .first-img{
+        opacity: 0;
+    }
+}
+.may-also-like .figure-second-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/18-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .second-img{
+        opacity: 0;
+    }
+   
+}
+.may-also-like .figure-third-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/29-1-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .third-img{
+        opacity: 0;
+    }
+}
+.may-also-like .figure-fourth-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/37-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .fourth-img{
+        opacity: 0;
+    }
+}
+
+/* end may-also-like*/
+/* ******************************** */
+/* start related-product*/
+.related-product .figure {
+    position: relative;
+     .spans {
+     position: absolute;
+      top: 10px;
+      left: 10px;
+      span {
+        font-size: 12px;
+        padding: 10px;
+      }
+    }
+  .related-product del {
+    color: #848484;
+  }
+}
+  .related-product .card .figure {
+    .icons {
+      bottom: -77px;
+      right: -68px;
+    }
+    &:hover {
+      .icons {
+        bottom: -20px;
+      }
+    }
+  }
+  .related-product .figure-fourth-img .card-body{
+      .add-cart{
+          bottom: 100px;
+      }
+  }
+.related-product .figure-first-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/10-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .first-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-second-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/39-3-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .second-img{
+        opacity: 0;
+    }
+   
+}
+.related-product .figure-third-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/22-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .third-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-fourth-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/31-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .fourth-img{
+        opacity: 0;
+    }
+}
+/* end related-product*/

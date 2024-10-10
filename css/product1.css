@@ -1,0 +1,585 @@
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(about.css);
+@import url(conatct.css);
+@import url(Responsive/product1-2Page.css);
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+  --gray: #efefef;
+}
+body {
+  font-family: Regular;
+}
+li {
+  list-style: none;
+}
+.card .card-img {
+  overflow: hidden;
+}
+img,
+iframe {
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.p-45 {
+  padding: 45px 0;
+}
+.p-bottom {
+  padding-bottom: 45px;
+}
+section {
+  padding: 0 60px;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+.mg-b {
+  margin-bottom: 80px;
+}
+.flex-d-col {
+  flex-direction: column;
+}
+.flex-d-row {
+  flex-direction: row;
+}
+.display-flex {
+  display: flex;
+}
+.mg-b-50 {
+  margin-bottom: 50px;
+}
+/* ************************ */
+/* header some of style */
+.header {
+    .number{
+        font-size: 12px;
+        }
+    .nav-btn{
+        transition: all 300ms;
+        &:hover{
+            background-color: #000000;
+        }
+    }
+}
+/* ********************** */
+/* Wood Outdoor */
+.home-shop{
+    .wood{
+        color: var(--black);
+    }
+    .slash{
+        color: #848484;
+    }
+}
+/* ********************** */
+/* start section adirondack-Chair*/
+.adirondack-Chair label{
+    margin-bottom: 20px;
+}
+.adirondack-Chair .ts-product-attribute{
+    margin-inline-start: 10px;
+}
+.adirondack-Chair .card-buy-now-btn{
+    margin-inline-start: 30px;
+}
+.adirondack-Chair .stock{
+    position: relative;
+    bottom: 6px;
+}
+.adirondack-Chair .card{
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+    .zoom{
+        transition: all 300ms;
+        &:hover{
+            cursor: zoom-in;
+            transform: scale(1.5);
+        }
+       
+        
+
+    }
+}
+.adirondack-Chair .card .green-color{
+    color: #40bf52;
+}
+.adirondack-Chair .spans{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    flex-direction: row;
+    gap: 20px;
+    .featured{
+        background-color: var(--cart);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            color:var(--white);
+            font-size: 12px;
+            padding: 20px;
+            text-transform: uppercase;
+        }
+    }
+    .onsale{
+        background-color: var(--black);
+    }
+    }
+
+
+.adirondack-Chair .search{
+        position: absolute;
+        left: 80%;
+        top: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 300ms;
+        i{
+            color: #000;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 300ms;
+        }
+        &:hover{
+            background-color: var(--cart);
+            i{
+                color: #ffffff;
+            }
+        }
+}
+.adirondack-Chair .low-opacity{
+    cursor: pointer;
+    opacity: 0.3;
+}
+.adirondack-Chair .img-hover{
+    transition: all 300ms;
+}
+.adirondack-Chair .img-hover:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+.adirondack-Chair .card 
+.counter-wrapper {
+    display: flex;
+    border-radius: 20px;
+    gap: 35px;
+    padding: 10px 20px;
+    background-color: var(--black);
+    color: var(--white);
+    width: 90%;
+    cursor: pointer;
+    transition: all 300ms;
+    &:hover{
+        background-color: var(--cart);
+    }
+    .ref-wrapper {
+        position: relative;
+        text-transform: capitalize;
+        left: 5px;
+        font-size: 12px;
+    }
+}
+
+.adirondack-Chair .card .counter-wrapper .product .card .card-content a, span {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--white);
+}
+.adirondack-Chair .card .price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .del{
+        color: #959595;
+        font-size: 5px;
+        font-family: Regular;
+        display: flex;
+        justify-content: center;
+    }
+}
+.adirondack-Chair .card .new-price span{
+    color: var(--black);
+    font-size: 36px;
+}
+.adirondack-Chair .card .old-price span{
+    color: #959595;
+    font-size: 20px;
+}
+.adirondack-Chair .card .long-p{
+    color: #848484;
+    font-size: 15px;
+}
+.adirondack-Chair .option.color{
+    .black-img{
+        outline:1px solid #000000;
+    }
+    .green-img{
+        outline:1px solid green;
+    }
+    .grey-img{
+        outline: 1px solid grey;
+    }
+    .teak-img{
+        outline: 1px solid #daa774;
+    }
+}
+.adirondack-Chair .option.color img{
+    width: 46px;
+    padding: 6px;
+    height: 46px;
+}
+.adirondack-Chair [data-value="teak"]{
+    position: relative;
+    right: 40px;
+}
+.adirondack-Chair  select {
+    text-transform: none;
+    display: none;
+}
+.adirondack-Chair .reset_variations{
+    position: relative;
+    bottom: 20px;
+    color: var(--cart);
+}
+.adirondack-Chair .btn-group{
+background-color: #ededed;
+display: flex;
+align-items: center;
+border-radius: 5px;
+transition: all 300ms;
+ .btn-primary{
+    background-color: transparent;
+}
+.plus-minus{
+    border: none;
+    border-radius: 0;
+    color: #000;
+    font-size: 15px;
+    padding: 12px 26px;
+}
+}
+.adirondack-Chair .stars .num-after-stars{
+    color: #000000;
+    margin-block-start: -7px;
+}
+.adirondack-Chair .add-cart-btn{
+    width: 300px;
+    position: relative;
+    right: 75px;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 5px;
+    background-color: #999999;
+    span{
+    font-size: 14px;
+    font-family: Bold;
+    color: var(--white);
+    margin-inline-end: 15px;
+    transition: all 300ms;
+    }
+     &:hover{
+        background-color: #ed9a9a;
+        span{
+        color: var(--white);
+        }
+     }
+}
+.adirondack-Chair .d-grid{
+  .buy-btn{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Bold;
+    border-radius: 50px;
+    color: #000000;
+    padding: 12px 26px;
+    border: 1px solid #000000;
+    width: 487px;
+    transition: all 300ms;
+    &:hover{
+        border-color: var(--cart);
+        color: var(--cart);
+    }
+}
+}
+.adirondack-Chair .card-border{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border: 1px solid #ededed;
+    }
+}
+.adirondack-Chair .last-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    a{
+        width: 114px;
+        color: var(--black);
+        cursor: pointer;
+        transition: all 300ms;
+        &:hover{
+            color: var(--cart);
+        }
+    }
+    span{
+        cursor: pointer;
+        i{
+            color: var(--black);
+            transition: all 300ms;
+            &:hover{
+                color: var(--cart);
+            }
+        }
+
+    }
+}
+.adirondack-Chair .icons{
+    justify-content: flex-end;
+    gap: 20px;
+}
+.adirondack-Chair .final-span {
+    a{
+        margin-left: 5px;
+        font-size: 14px;
+        color: #848484;
+    }
+    span{
+    color: var(--black);
+    font-size: 14px;
+    }
+}
+/* End section adirondack-Chair */
+/* ******************************** */
+/* start section Dimensions */
+  .dimensions .header{
+    font-size: 25px;
+    color: var(--black);
+    transition: all 300ms;
+    &:hover{
+        background-color: #efefef;
+        border-radius: 50px;
+        font-family: Bold;
+        width: auto;
+        text-align: center;
+    }
+    .first-a{
+        background-color: #efefef;
+        font-family: Bold;
+    }
+   
+  }
+  .dimensions .first-row{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border: 1px solid #ededed;
+    }
+  }
+  .dimensions{
+    ul{
+        margin-top: 50px;
+        li{
+            margin-bottom: 10px;
+            span{
+                color: var(--black);
+                font-family: Bold;
+                font-size: 15px;
+                margin-right: 5px;
+            }
+        }
+    }
+  }
+/* End section Dimensions */
+/* ************************* */
+/* start section related-product */
+.related-product{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border: 1px solid #ededed;
+    }
+
+}
+.related-product .card-head h2{
+    font-size: 25px;
+    font-family: Bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.related-product .card .card-body .add-cart {
+    bottom: 120px;
+}
+.related-product .card .figure .icons {
+    bottom: 20px;
+
+}
+.related-product .card .figure:hover .icons{
+    bottom: 80px;
+}
+.related-product .last-sec-del{
+    color: #efefef;
+}
+.related-product .figure-first-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/34-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .first-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-second-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/38-2-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .second-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-third-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/38-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .third-img{
+        opacity: 0;
+    }
+}
+.related-product .figure-fourth-img:hover{
+    cursor: pointer;
+    height: auto;
+    background-image: url(../img/10-450x572.jpg);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    inset: 0;
+    opacity: 1;
+    .fourth-img{
+        opacity: 0;
+    }
+}
+.related-product .figure {
+    position: relative;
+    .spans {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        background-color:transparent;
+        gap: 17px;
+        span{
+            font-size: 12px;
+            padding: 10px;
+        }
+        .featured{
+            padding: 1px;
+            background-color: var(--cart);
+            span{
+                text-transform: uppercase;
+                }
+        }
+        .onsale{
+            padding: 1px;
+            background-color: var(--black);
+            span{
+            text-transform: uppercase;
+            }
+        }
+    }
+}
+.related-product .card .figure {
+  position: relative;
+  .icons {
+    bottom: -77px;
+    right: -68px;
+    transition: all 300ms;
+  }
+  &:hover {
+    .icons {
+      bottom: -20px;
+    }
+  }
+  .add-cart{
+    bottom: 0;
+}
+.related-product del{
+    color: #959595;
+}
+
+/* End section related-product */
+.footer .social-info{
+    span{
+          color: #000;  
+    }
+}
+}

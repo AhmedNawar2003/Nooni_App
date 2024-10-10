@@ -1,0 +1,317 @@
+:root {
+  --nooni-top-bg: rgba(0, 0, 0, 1);
+  --nooni-top-color: rgba(255, 255, 255, 1);
+  --nooni-top-border: rgba(0, 0, 0, 1);
+  --white: #fff;
+  --cart: #d10202;
+  --black: #000000;
+}
+/* ******************************************** */
+.text a span {
+  position: relative;
+}
+.text a span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  border-bottom: 1px solid;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+.text a span:hover::before {
+  background-color: var(--black);
+  width: 100%;
+  right: 0;
+}
+.card .card-img{
+    position: relative;
+    overflow:hidden;
+}
+img{
+  transition:  all 300ms;
+}
+.card .card-img img:hover {
+  transform: scale(1.1);
+}
+ .card-head{
+    margin-bottom: 32px;
+  }
+  .counter-wrapper{
+    display: flex;
+    gap: 10px;
+    padding: 7px 20px;
+    background-color: var(--black);
+    font-size: 15px;
+    color: var(--white);
+    width: 195px;
+  }
+  .counter-wrapper  .ref-wrapper{
+    position: relative;
+    right: 8px;
+  }
+  .shop-more-button{
+    color: var(--black);
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .shop-more-button:after {
+    content: '>>';
+    display: inline-block;
+    line-height: 1;
+    vertical-align: 1px;
+    margin-left: 5px;
+  }
+  .btn-see{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .shop-more-button{
+    transition:  all 300ms;
+  }
+  .shop-more-button:hover{
+    color: var(--cart);
+  }
+  .card{
+    position: relative;
+  }
+  .card .card-body .add-cart {
+    visibility: hidden;
+    height: 50px;
+    width: 100%;
+    line-height: 26px;
+    position: absolute;
+    bottom: 155px ;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;  
+    border-radius: 10px;
+  }
+  .card:hover .add-cart{
+    visibility: visible;
+    background-color: var(--cart);
+   
+  }
+  .card .card-body .add-cart .cart{
+    padding: 5px 15px;
+    border-radius: 40px;
+    letter-spacing: 0;
+    font-size: 0.8rem;
+    color: var(--nooni-top-bg);
+    text-transform: uppercase;
+    font-family: Bold;
+    transition: all 300ms;
+  }
+  .card .card-body .add-cart:hover .cart{
+    color: var(--white);
+  }
+  .card .figure img{
+    position: relative;
+  }
+  .card .figure .icons{
+    position: absolute;
+    left: 95%;
+    right: auto;
+    bottom: 90px;
+    transform: translate(-50%, -100%);
+    display: flex;
+    flex-direction: column-reverse;
+    transition: all 0.5s;
+  }
+  .card:hover .icons {
+    bottom: 150px;
+  }
+  .card .figure  span .icon{
+    position: relative;
+    font-weight: normal;
+    background-color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  .icon1:hover::after{
+    content: "wishlist";
+    position: absolute;
+    background-color: #d10202;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    left: -100px;
+    color: #fff;
+    font-size: 12px;
+    transition: all 0.5s;
+  }
+  .icon2:hover::after{
+    content: "compare";
+    position: absolute;
+    background-color: #d10202;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    left: -100px;
+    color: #fff;
+    font-size: 12px;
+    transition: all 0.5s;
+  }
+  .icon2.icon3:hover::after{
+    content: "Quick view";
+    position: absolute;
+    background-color: #d10202;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    left: -100px;
+    color: #fff;
+    font-size: 12px;
+    transition: all 0.5s;
+  }
+  .card .figure span .icon i{
+    color: var(--nooni-top-bg);
+  }
+  .icon2{
+    visibility: hidden;
+  }
+  .card:hover .icon2{
+    visibility: visible;
+  }
+  .card .figure span .icon{
+    transition: all 300ms;
+  }
+  .card .figure span .icon:hover{
+    background-color: var(--cart);
+  }
+  .card .figure span .icon:hover i{
+    color: var(--white);
+  }
+  .card .content .sale{
+    margin-bottom: 6px;
+  }
+  .card .content .sale span{
+   color: var(--cart);
+   font-size: 15px;
+   text-transform: uppercase;
+  }
+  .card .content h3{
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  .card .content h3 a{
+    text-transform: capitalize;
+    color: var(--black);
+    font-size: 15px;
+    transition: all 300ms;
+  }
+  .card .content h3 a:hover{
+    color: var(--cart);
+  }
+  .card .card-body .price .bdi-black{
+    color: var(--black);
+    font-size: 15px;
+    font-family: Bold;
+  }
+  .card .card-body .price .bdi-gray{
+    color: #959595;
+    font-size: 15px
+  }
+  .card .card-body .price{
+    display: flex;
+    gap: 10px;
+  }
+  .icons .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+  }
+  .col-3.bottom-100{
+    position: relative;
+    bottom: 100px;
+  }
+  .col-3.bottom-30{
+    position: relative;
+    bottom: 30px;
+  }
+ .card .figure{
+  transition: all 300ms;
+ }
+ .input-group .form-control{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.form-control:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-primary:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-outline-secondary:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.btn:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.form-select:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.accordion-flush .accordion-item .accordion-button:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.footer .card-top span i {
+  transition: all 300ms;
+}
+.footer .card-bottom ul li {
+  transition: all 300ms;
+}
+.navbar-toggler:focus {
+   box-shadow: none;
+  }
+.input-group,
+.form-control,
+.btn,
+.genuine-Products .card a,
+.form-check,
+.checkbox-product .card .type,
+.form-select,
+.form-group input{
+  border-radius: 50px;
+}
+.footer .side-arrow {
+  border-radius: 15px;
+  &:hover{
+    background-color: var(--cart);
+  }
+}

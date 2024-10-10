@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+  .form .form-check.reminder-me {
+    right: 60px !important;
+  }
+  .form .card-left {
+    inset-inline-start: 50px !important;
+  }
+  .form form .input-group {
+    width: auto !important;
+  }
+  .form form .form-control {
+    width: auto !important;
+  }
+}
+@media (max-width: 992px) {
+  .form .form-check.reminder-me {
+    bottom: 0px !important;
+    left: -15px !important;
+  }
+  .form form a:not([href]):not([class]),
+  a:not([href]):not([class]):hover {
+    bottom: 0 !important;
+    left: 2px !important;
+  }
+  .form .card-left {
+    margin-top: 50px !important;
+    inset-inline-start: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .form .form-check.reminder-me {
+    left: 17px !important;
+  }
+  .form form .input-group {
+    width: auto !important;
+  }
+  .form form .form-control {
+    width: auto !important;
+  }
+}
+@media (max-width: 450px) {
+  .form .card-heading h2 {
+    font-size: 20px !important;
+  }
+  .form form .form-label {
+    font-size: 14px !important;
+  }
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    width: auto !important;
+    font-size: 14px !important;
+  }
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+      .valid-feedback
+    ):not(.invalid-tooltip):not(.invalid-feedback) {
+    font-size: 10px !important;
+  }
+  .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+  .input-group:not(.has-validation)
+    > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    font-size: 10px !important;
+  }
+}
