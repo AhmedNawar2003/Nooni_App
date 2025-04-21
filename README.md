@@ -3,7 +3,7 @@
 A product showcase platform with responsive layout and optimized performance.
 
 ## 🔗 Live Demo  
-[Try it](https://elaborate-puffpuff-a536a7.netlify.app/)
+[Visit it](https://elaborate-puffpuff-a536a7.netlify.app/)
 
 ## 🛠️ Tech Stack  
 - HTML  
